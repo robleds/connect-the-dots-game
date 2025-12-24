@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "StickRound";
+    src: local("StickRound"),
+        url("./fonts/Stick-A-Round.ttf") format("truetype"),
+        url("./fonts/Stick-A-Round.woff2") format("woff2");
+}
+
+body {
+    background-color: #fe1303;
+}
+.App {
+    background-color: #fff;
+    height: 100vh;
+}
+.content {
+    position: relative;
+    z-index: 2;
+}
+.header {
+    background: #fff url(./assets/bg-topo.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16%;
+}
+@media (min-width: 960px) {
+    .logos {
+        padding-top: 19%;
+    }
+}
+.logos img {
+    display: block;
+    width: 20%;
+    max-width: 204px;
+    margin-top: 2%;
+}
+@media (min-width: 960px) {
+    .logos img {
+        width: 30%;
+        max-width: 260px;
+    }
+}
+.footer {
+    display: flex;
+    align-items: flex-end;
+    background: url(./assets/bg-footer.jpg) no-repeat left bottom transparent;
+    background-size: contain;
+    padding-top: 29%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bt-continue {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    margin: 0 auto 6%;
+    width: 250px;
+}
+@media (min-width: 960px) {
+    .bt-continue {
+        width: 350px;
+    }
+}
+.bt-continue img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
