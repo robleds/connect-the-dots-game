@@ -1,30 +1,28 @@
-# connect-the-dots-game
+# Connect the Dots Game
 
-Aplicação web de jogo desenvolvida para a campanha Kibon.
+Jogo interativo 'Ligue os Pontos' para eventos corporativos
 
 ## 📋 Sobre o Projeto
 
-Aplicação web interativa desenvolvida com React para a campanha Kibon, oferecendo uma experiência de jogo para os usuários.
+Jogo web interativo desenvolvido com React que desafia os jogadores a conectar pontos em sequência. Perfeito para eventos corporativos, oferece uma experiência divertida e engajadora que pode ser customizada com temas específicos e integrada a campanhas de marketing.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React** - Biblioteca JavaScript para construção de interfaces
 - **JavaScript** - Linguagem de programação
-- **CSS** - Estilização
-- **Service Worker** - Funcionalidades PWA
+- **React** - Biblioteca JavaScript para construção de interfaces
 
 ## 🚀 Como Configurar
 
 ### Pré-requisitos
 
-- Node.js >= 14.x
+- Node.js >= 16.x
 - Yarn ou npm
 
 ### Instalação
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU-USUARIO/connect-the-dots-game.git
+git clone https://github.com/robleds/connect-the-dots-game.git
 cd connect-the-dots-game
 ```
 
@@ -39,9 +37,9 @@ npm install
 
 ### Desenvolvimento
 ```bash
-yarn start
+yarn dev
 # ou
-npm start
+npm run dev
 ```
 
 ### Build de Produção
@@ -51,11 +49,6 @@ yarn build
 npm run build
 ```
 
-## 📝 Scripts Disponíveis
-
-- `yarn start` - Inicia o servidor de desenvolvimento
-- `yarn build` - Cria build de produção
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
@@ -63,4 +56,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 📌 Status do Projeto
 
 Este projeto está arquivado e é mantido apenas para fins de portfólio. Não há suporte ativo ou atualizações planejadas.
-
