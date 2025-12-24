@@ -1,4 +1,4 @@
-# OBA Shell Kibon Game
+# connect-the-dots-game
 
 Aplicação web de jogo desenvolvida para a campanha Kibon.
 
@@ -24,8 +24,8 @@ Aplicação web interativa desenvolvida com React para a campanha Kibon, oferece
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU-USUARIO/oba-shell-kibon-game.git
-cd oba-shell-kibon-game
+git clone https://github.com/SEU-USUARIO/connect-the-dots-game.git
+cd connect-the-dots-game
 ```
 
 2. Instale as dependências:
